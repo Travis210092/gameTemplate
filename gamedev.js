@@ -4,49 +4,80 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
 		$("#goRight1").hide();
 		$("#goBack").hide();
-		$("#goRight-Left1").show();
-		$("#goRight-Right1").show();
+		$("#goLeftR2B").show();
+		$("#goRightR2B").show();
 	});
 
-	$("#goRight-Left1").click(function() {
+	$("#goRightL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goExit2").show();
+		$("#goRightL2B").hide
+		$("#goRight1").hide
+		$("#goRightR2B").hide
+		$("#goLeftL2B").hide
+		$("#goLeft1").hide
+		$("#goLeftR2B").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+		$("#goExitL4").hide
+		$("#goExitR4").hide
 	});
 
 
-	$("#goRight-Right1").click(function() {
+	$("#goRightR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
-		$("#goRight-Right2").hide();
-		$("#goBack").hide();
+		$("#goExitL4").show();
+		$("#goExitR4").show();
 	});
 
 
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
-		$("#goLeft-Right1").show();
-		$("#goLeft-Left1").show();
+		$("#goLeftL2B").show();
+		$("#goRightL2B").show();
 	});
 
-	$("#goLeft-Left1").click(function() {
+	$("#goLeftL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
 		$("#goLeft2").hide();
-		$("#goLeft3").hide();
+		$("#goExit1").show();
 	});
 
-	$("#goLeft-Right1").click(function() {
+	$("#goLeftR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goLeft3").hide();
-		$("#goBack").hide();
+		$("#goExit3").show();
 	});
 
+	$("#goExit3").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#goLeft3").hide();
+		$("#goExit3").hide();
+	});
+	$("#goExit1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#goLeft3").hide();
+		$("#goExit3").hide();
+	});
+	$("#goExit2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#goLeft3").hide();
+		$("#goExit3").hide();
+	});
+	$("#goExitR4").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#goLeft3").hide();
+		$("#goExit3").hide();
+	});
+	$("#goExitL4").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#goLeft3").hide();
+		$("#goExit3").hide();
+	});
 
 	
-<<<<<<< HEAD
-=======
-	
 
->>>>>>> origin/master
 
 
 });

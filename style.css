@@ -68,13 +68,13 @@ body {
     display: block;
 }
 
-#goRight-Right1 {
+#goRightR2B {
     bottom: 25%;
     right: 45%;
     display: none;
 }
 
-#goLeft-Left1 {
+#goLeftL2B {
     bottom: 25%;
     left: 45%;
     display: none;
@@ -83,17 +83,46 @@ body {
 
 
 
-#goRight-Left {
+#goRightL2B {
     left: 40px;
     top: 40%;
     display: none;
 }
 
-#goLeft-Right {
+#goLeftR2B {
     top: 40%;
     right: 40%;
     display: none;
 }
+#goLeftR2B {
+    top: 40%;
+    right: 40%;
+    display: none;
+}
+#goExit1 {
+    top: 40%;
+    display: none;
+}
+#goExit2 {
+    top: 40%;
+
+    display: none;
+}
+#goExit3 {
+    top: 40%;
+    display: none;
+}
+#goExitL4 {
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+#goExitR4 {
+    top: 40%;
+    right: 40%;
+    display: none;
+}
+
 
 
 
