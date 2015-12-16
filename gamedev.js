@@ -7,11 +7,27 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		$("#goRightR2B").show();
 		$("#goRightL2B").show();
 	});
 
 	$("#goRightR2B").click(function() {
+=======
+		$("#goLeftR2B").show();
+		$("#goRightR2B").show();
+		$("#goRight-Straight1").hide();
+		$("#goExit2").hide();
+		$("#goRightL2B").hide
+		$("#goRight1").hide
+		$("#goLeftL2B").hide
+		$("#goLeft1").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+	});
+
+	$("#goRightL2B").click(function() {
+>>>>>>> origin/master
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRightR2B").hide();
 		$("#goBack").show();
@@ -27,6 +43,7 @@ $( document ).ready(function() {
 		$("#goLeftR2B").show();
 		$("#goRightR2B").show();
 		$("#goRight-Straight1").hide();
+<<<<<<< HEAD
 		$("#goExit2").hide();
 		$("#goRightL2B").hide
 		$("#goRight1").hide
@@ -34,6 +51,19 @@ $( document ).ready(function() {
 		$("#goLeft1").hide
 		$("#goExit1").hide
 		$("#goExit3").hide
+=======
+		$("#goExit2").show();
+		$("#goRightL2B").hide
+		$("#goRight1").hide
+		$("#goRightR2B").hide
+		$("#goLeftL2B").hide
+		$("#goLeft1").hide
+		$("#goLeftR2B").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+		$("#goExitL4").hide
+		$("#goExitR4").hide
+>>>>>>> origin/master
 	});
 
 =======
@@ -49,6 +79,7 @@ $( document ).ready(function() {
 		$("#goExit3").hide
 	});
 
+<<<<<<< HEAD
 >>>>>>> origin/master
 	$("#goRightL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
@@ -90,6 +121,10 @@ $( document ).ready(function() {
 	$("#goRightR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
 >>>>>>> origin/master
+=======
+	$("#goRightR2B").click(function() {
+		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+>>>>>>> origin/master
 		$("#goExitL4").show();
 		$("#goExitR4").show();
 		$("#goRight-Straight1").hide();
@@ -103,6 +138,9 @@ $( document ).ready(function() {
 		$("#goExit1").hide
 		$("#goExit3").hide
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
@@ -111,6 +149,7 @@ $( document ).ready(function() {
 
 	$("#goLeftB1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		$("#goLeftR2B").show();
@@ -177,6 +216,23 @@ $( document ).ready(function() {
 	$("#goLeftL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
 		$("#goLeft2").hide();
+=======
+		$("#goLeftL2B").show();
+		$("#goRightL2B").show();
+		$("#goRight-Straight1").hide();
+		$("#goExit2").hide();
+		$("#goRight1").hide
+		$("#goRightR2B").hide
+		$("#goLeft1").hide
+		$("#goLeftR2B").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+	});
+
+	$("#goLeftL2B").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#goLeft2").hide();
+>>>>>>> origin/master
 		$("#goExit1").show();
 		$("#goRight-Straight1").hide();
 		$("#goExit2").hide();
@@ -189,6 +245,9 @@ $( document ).ready(function() {
 		$("#goExit3").hide
 	});
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	$("#goLeftR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
@@ -205,6 +264,9 @@ $( document ).ready(function() {
 		$("#goExit1").hide
 		$("#goExit3").hide
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
@@ -296,6 +358,9 @@ $( document ).ready(function() {
 =======
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
