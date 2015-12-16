@@ -1,48 +1,73 @@
 $( document ).ready(function() {
 
-	$("#goRight1").click(function() {
+	$("#goRightB1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
-		$("#goRight1").hide();
+		$("#goRightB1").hide();
+		$("#goLeftB1").hide();
 		$("#goBack").hide();
-		$("#goRight-Left1").show();
-		$("#goRight-Right1").show();
+		$("#goRightR2B").show();
+		$("#goRightL2B").show();
 	});
 
-	$("#goRight-Left1").click(function() {
+	$("#goRightR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
-		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goRightR2B").hide();
+		$("#goBack").show();
+		$("#goRightL2B").hide();
+
 	});
 
+	$("#goExit1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#goRight-Straight2").hide();
+		$("#goBack").show();
+	});
 
-	$("#goRight-Right1").click(function() {
+	$("#goRightL2B").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#goRightR2B").hide();
+		$("#goBack").show();
+		$("#goRightL2B").hide();
+	});
+
+	$("#goExit2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
 		$("#goRight-Right2").hide();
-		$("#goBack").hide();
+		$("#goBack").show();
 	});
 
 
-	$("#goLeft1").click(function() {
+	$("#goLeftB1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
-		$("#goLeft-Right1").show();
-		$("#goLeft-Left1").show();
+		$("#goLeftR2B").show();
+		$("#goLeftL2B").show();
+		$("#goLeftB1").hide();
+		$("#goRightB1").hide()
 	});
 
-	$("#goLeft-Left1").click(function() {
+	$("#goLeftR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
 		$("#goLeft2").hide();
-		$("#goLeft3").hide();
+		$("#goExit2").show();
+		$("#goLeftL2B").hide();
+		$("#goLeftR2B").hide();
 	});
 
-	$("#goLeft-Right1").click(function() {
+	$("#goLeftL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
-		$("#goLeft3").hide();
-		$("#goBack").hide();
+		$("#goLeftB1").hide();
+		$("#goExit2").show();
+		$("#goLeftL2B").hide();
+		$("#goLeftR2B").hide();
 	});
 
 
-	
-	
+	$("#goBack").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
+		$("#goBack").hide();
+		$("#goRight1").show();
+		$("#goLeft1").show();
+	});
 
 
 
