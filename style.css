@@ -70,9 +70,12 @@ body {
 
 #goRightR2B {
 <<<<<<< HEAD
+<<<<<<< HEAD
     top: 25%;
     left: 75%;
 =======
+=======
+>>>>>>> origin/master
     bottom: 25%;
     right: 45%;
 >>>>>>> origin/master
@@ -95,6 +98,7 @@ body {
 }
 
 #goLeftR2B {
+<<<<<<< HEAD
 <<<<<<< HEAD
     bottom: 25%;
     left: 65%;
@@ -158,10 +162,41 @@ display: none;
 }
 #goExitR4 {
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
     top: 40%;
     right: 40%;
     display: none;
 }
+#goLeftR2B {
+    top: 40%;
+    right: 40%;
+    display: none;
+}
+#goExit1 {
+    top: 40%;
+    display: none;
+}
+#goExit2 {
+    top: 40%;
+
+    display: none;
+}
+#goExit3 {
+    top: 40%;
+    display: none;
+}
+#goExitL4 {
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+#goExitR4 {
+    top: 40%;
+    right: 40%;
+    display: none;
+}
+
 
 
 

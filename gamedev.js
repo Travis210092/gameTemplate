@@ -6,6 +6,7 @@ $( document ).ready(function() {
 		$("#goLeftB1").hide();
 		$("#goBack").hide();
 <<<<<<< HEAD
+<<<<<<< HEAD
 		$("#goRightR2B").show();
 		$("#goRightL2B").show();
 	});
@@ -35,6 +36,20 @@ $( document ).ready(function() {
 		$("#goExit3").hide
 	});
 
+=======
+		$("#goLeftR2B").show();
+		$("#goRightR2B").show();
+		$("#goRight-Straight1").hide();
+		$("#goExit2").hide();
+		$("#goRightL2B").hide
+		$("#goRight1").hide
+		$("#goLeftL2B").hide
+		$("#goLeft1").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+	});
+
+>>>>>>> origin/master
 	$("#goRightL2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
 		$("#goRight-Straight1").hide();
@@ -49,6 +64,9 @@ $( document ).ready(function() {
 		$("#goExit3").hide
 		$("#goExitL4").hide
 		$("#goExitR4").hide
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	});
 
@@ -60,6 +78,7 @@ $( document ).ready(function() {
 	});
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$("#goExit2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
 		$("#goRight-Right2").hide();
@@ -67,6 +86,10 @@ $( document ).ready(function() {
 =======
 	$("#goRightR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+=======
+	$("#goRightR2B").click(function() {
+		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+>>>>>>> origin/master
 		$("#goExitL4").show();
 		$("#goExitR4").show();
 		$("#goRight-Straight1").hide();
@@ -79,12 +102,16 @@ $( document ).ready(function() {
 		$("#goLeftR2B").hide
 		$("#goExit1").hide
 		$("#goExit3").hide
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	});
 
 
 	$("#goLeftB1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+<<<<<<< HEAD
 <<<<<<< HEAD
 		$("#goLeftR2B").show();
 		$("#goLeftL2B").show();
@@ -134,6 +161,35 @@ $( document ).ready(function() {
 		$("#goExit3").hide
 	});
 
+=======
+		$("#goLeftL2B").show();
+		$("#goRightL2B").show();
+		$("#goRight-Straight1").hide();
+		$("#goExit2").hide();
+		$("#goRight1").hide
+		$("#goRightR2B").hide
+		$("#goLeft1").hide
+		$("#goLeftR2B").hide
+		$("#goExit1").hide
+		$("#goExit3").hide
+	});
+
+	$("#goLeftL2B").click(function() {
+		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#goLeft2").hide();
+		$("#goExit1").show();
+		$("#goRight-Straight1").hide();
+		$("#goExit2").hide();
+		$("#goRightL2B").hide
+		$("#goRight1").hide
+		$("#goRightR2B").hide
+		$("#goLeftL2B").hide
+		$("#goLeft1").hide
+		$("#goLeftR2B").hide
+		$("#goExit3").hide
+	});
+
+>>>>>>> origin/master
 	$("#goLeftR2B").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goLeft3").hide();
@@ -148,6 +204,9 @@ $( document ).ready(function() {
 		$("#goLeftR2B").hide
 		$("#goExit1").hide
 		$("#goExit3").hide
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	});
 
@@ -236,6 +295,9 @@ $( document ).ready(function() {
 	});
 =======
 	
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 
