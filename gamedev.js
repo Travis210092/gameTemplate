@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goExit1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/exit1.png')");
 		$("#goRight-Straight2").hide();
 		$("#goBack").show();
 	});
@@ -31,14 +31,14 @@ $( document ).ready(function() {
 	});
 
 	$("#goExit2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/RightR2B.png')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
 
 
 	$("#goLeftB1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/splashpage.png')");
 		$("#goLeftR2B").show();
 		$("#goLeftL2B").show();
 		$("#goLeftB1").hide();
@@ -46,7 +46,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeftR2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/RightB1.png')");
 		$("#goLeft2").hide();
 		$("#goExit2").show();
 		$("#goLeftL2B").hide();
@@ -54,7 +54,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeftL2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/wolfkill_exit1.png')");
 		$("#goLeftB1").hide();
 		$("#goExit2").show();
 		$("#goLeftL2B").hide();
@@ -63,7 +63,7 @@ $( document ).ready(function() {
 
 
 	$("#goBack").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/splashpage.png')");
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
