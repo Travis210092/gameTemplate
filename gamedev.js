@@ -54,7 +54,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeftL2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/wolfkill_exit1.png')");
+		$("#exploreBody").css("background-image", "url('img/killwolf_new.png')");
 		$("#goLeftB1").hide();
 		$("#goExit2").show();
 		$("#goLeftL2B").hide();
