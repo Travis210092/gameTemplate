@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goRightB1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/RightB1.png')");
 		$("#goRightB1").hide();
 		$("#goLeftB1").hide();
 		$("#goBack").hide();
@@ -10,7 +10,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRightR2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/RightR2B.png')");
 		$("#goRightR2B").hide();
 		$("#goBack").show();
 		$("#goRightL2B").hide();
