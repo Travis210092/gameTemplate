@@ -1,28 +1,28 @@
 body {
 
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
+    background-image: url("img/caveblood.jpg'");
     background-size: cover;
     background-position: center center;
-	font-family: monospace;
+    font-family: monospace;
 
 }
 
 /*Stuff below governs the start screen*/
 
 .titleContent {
-	margin: 10% auto;
+    margin: 10% auto;
     text-align: center;
 }
 
 .splashTitle {
-	color: #fff;
+    color: #fff;
     font-size: 8em;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
 .button {
-	border: 5px solid #383838;
+    border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
     font-size: 5em;
@@ -40,15 +40,15 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
-	background-position: bottom center;
+    background-image: url("img/exploreHome1.jpg");
+    background-position: bottom center;
 
 }
 
 .go {
-	position: absolute;
-	color: white;
-	position: absolute;
+    position: absolute;
+    color: white;
+    position: absolute;
     padding: 20px 10px;
     color: white;
     font-size: 6em;
@@ -56,59 +56,79 @@ body {
 
 }
 
-#goLeft1 {
+#goLeftB1 {
+    left: 40%;
+    bottom: 70%;
+    display: block;
+}
+
+#goRightB1 {
+    right: 40%;
+    bottom: 70%;
+    display: block;
+}
+
+#goRightR2B {
+    top: 25%;
+    left: 75%;
+    display: none;
+}
+
+#goLeftL2B {
+    bottom: 25%;
+    right: 75%;
+    display: none;
+}
+
+
+
+
+#goRightL2B {
     left: 40px;
     top: 40%;
-    display: block;
-}
-
-#goRight1 {
-    right: 40px;
-    top: 40%;
-    display: block;
-}
-
-#goRight-Straight1 {
-    bottom: 25%;
-    left: 45%;
     display: none;
 }
 
-#goLeft-Straight1 {
+#goLeftR2B {
     bottom: 25%;
-    left: 45%;
+    left: 65%;
     display: none;
 }
-
-#goRight-Straight2 {
+#goLeftR2B {
     bottom: 25%;
-    left: 45%;
+    right: 75%;
     display: none;
 }
-
-#goLeft-Straight2 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goRight-Right2 {
-    right: 40px;
+#goExit1 {
     top: 40%;
     display: none;
 }
-
-#goLeft-Straight3 {
-    bottom: 25%;
-    left: 45%;
+#goExit2 {
+    top: 40%;
+  right: 50%;
+display: none;
+}
+#goExit3 {
+    top: 40%;
     display: none;
 }
-
+#goExitS1 {
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+#goExitS2 {
+    top: 40%;
+    right: 40%;
+    display: none;
+}
 #goBack {
-    bottom: 25%;
-    left: 45%;
+    top: 40%;
+    right: 40%;
     display: none;
 }
+
+
 
 
 .hudBase {
@@ -140,11 +160,11 @@ display: inline;
 }
 
 .invSlot1 {
-	display: inline;
-	width: 80px;
-	height: 80px;
-	border: 5px dashed #bbb;
-	padding: 10px 10px;
+    display: inline;
+    width: 80px;
+    height: 80px;
+    border: 5px dashed #bbb;
+    padding: 10px 10px;
     margin: 20px;
     font-size:0.6em;
 }
