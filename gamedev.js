@@ -18,13 +18,13 @@ $( document ).ready(function() {
 	});
 
 	$("#goExit1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exit1.png')");
+		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
 		$("#goRight-Straight2").hide();
 		$("#goBack").show();
 	});
 
 	$("#goRightL2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/splashpage.png')");
 		$("#goRightR2B").hide();
 		$("#goBack").show();
 		$("#goRightL2B").hide();
