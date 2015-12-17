@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goExit1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
+		$("#exploreBody").css("background-image", "url('img/exit1.png')");
 		$("#goRight-Straight2").hide();
 		$("#goBack").hide();
 	});
