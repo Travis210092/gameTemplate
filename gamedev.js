@@ -31,7 +31,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goExit2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exit1.png')");
+		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
