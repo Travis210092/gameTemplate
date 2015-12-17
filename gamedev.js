@@ -24,14 +24,14 @@ $( document ).ready(function() {
 	});
 
 	$("#goRightL2B").click(function() {
-		$("#exploreBody").css("background-image", "url('img/splashpage.png')");
+		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
 		$("#goRightR2B").hide();
 		$("#goBack").show();
 		$("#goRightL2B").hide();
 	});
 
 	$("#goExit2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
+		$("#exploreBody").css("background-image", "url('img/exit1.png')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
