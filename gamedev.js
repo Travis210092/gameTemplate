@@ -38,7 +38,7 @@ $( document ).ready(function() {
 
 
 	$("#goLeftB1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/splashpage.png')");
+		$("#exploreBody").css("background-image", "url('img/badwinending.png')");
 		$("#goLeftR2B").show();
 		$("#goLeftL2B").show();
 		$("#goLeftB1").hide();
