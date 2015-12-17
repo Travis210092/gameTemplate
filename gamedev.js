@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	$("#goExit1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/NEWPHOTO.png')");
 		$("#goRight-Straight2").hide();
-		$("#goBack").show();
+		$("#goBack").hide();
 	});
 
 	$("#goRightL2B").click(function() {
